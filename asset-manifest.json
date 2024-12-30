@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/K2320/adirportfolio.git/static/css/main.78836ec1.css",
+    "main.js": "/K2320/adirportfolio.git/static/js/main.3ea118ed.js",
+    "static/js/488.a5045e2d.chunk.js": "/K2320/adirportfolio.git/static/js/488.a5045e2d.chunk.js",
+    "index.html": "/K2320/adirportfolio.git/index.html",
+    "main.78836ec1.css.map": "/K2320/adirportfolio.git/static/css/main.78836ec1.css.map",
+    "main.3ea118ed.js.map": "/K2320/adirportfolio.git/static/js/main.3ea118ed.js.map",
+    "488.a5045e2d.chunk.js.map": "/K2320/adirportfolio.git/static/js/488.a5045e2d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78836ec1.css",
+    "static/js/main.3ea118ed.js"
+  ]
+}
