@@ -1,11 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
+import aegisFileImage from './Aegisfile Scanner.png';
+import passwordsec from './password security.png';
+import pfp from './profilepic.jpg';
+
+
+
 
 function App() {
   const [activePage, setActivePage] = useState('home');
   const [isLoaded, setIsLoaded] = useState(false);
 
-  useEffect(() => {
+  useEffect(() => { 
     setIsLoaded(true);
   }, []);
 
@@ -181,15 +187,16 @@ function About() {
         <div className="about-text">
           <div className="text-reveal-container">
             <p className="text-reveal">
-              Hi, I'm Adir Ali Yerima, a senior at Innovation Academy with a knack for creating software
-              that's both simple and impactful. I thrive on turning real-world challenges into seamless
-              digital solutions. My toolset includes Java, CSS, HTML, and a host of other programming
-              languages and technologies.
+              Hi, I'm Adir Ali Yerima, a senior at Innovation Academy with a passion for creating software
+              that's both simple and impactful. I enjoy turning real-world challenges into 
+              digital solutions with software engineering. My toolset includes Java, CSS, HTML, and a host of other programming
+              languages and technologies. As a high School students I mastered Java, CSS, HTML and a host of other technology
+              like React, Firebase and Node.js
             </p>
             <p className="text-reveal">
-              As a certified cybersecurity professional with a CompTIA Security+ certification, I merge
-              cybersecurity with programming to craft secure and efficient software. Plus, I love sharing my
-              insights and expertise on my cybersecurity blog, where I discuss the latest trends and tips in
+              As a certified cybersecurity professional with a CompTIA Security+ certification, I combine
+              cybersecurity with web app development to craft secure and efficient software. Plus, I love sharing my
+              insights on my cybersecurity blog, where I discuss the latest trends and tips in
               the field.
             </p>
             <p className="text-reveal">
@@ -203,11 +210,16 @@ function About() {
               learning applications in cybersecurity, particularly in intrusion detection systems. I created my
               own machine learning model with over 90% accuracy in detecting network attacks.
             </p>
+            <p className="text-reveal">
+            I am actively seeking opportunities to improve my skills and gain experience through work. 
+            I am excited about the possibility of collaborating and contributing to innovative projects.
+            </p>
+
           </div>
         </div>
         <div className="profile-image-container">
           <img 
-            src="/profilepic.jpg" 
+            src={pfp}
             alt="Adir Ali Yerima" 
             className="profile-image fade-in"
           />
@@ -229,7 +241,7 @@ function Projects() {
             description: "Developed a virus file scanner that verifies the integrity of user-uploaded files using the VirusTotal API",
             year: "2024",
             role: "Lead Developer",
-            image: "/Aegisfile Scanner.png",
+            image: aegisFileImage,
             links: {
               live: " https://k2320.github.io/aegisfile-/",
               code: "https://github.com/K2320/aegisfile-",
@@ -240,7 +252,7 @@ function Projects() {
             description: "Developed a system to verify password integrity and provide feedback for stronger password creation.",
             year: "2024",
             role: "Full Stack Developer",
-            image: "/password security.png",
+            image: passwordsec,
             links: {
               live: "https://k2320.github.io/psswrd-sec/",
               code: "https://github.com/K2320/psswrd-sec",
@@ -285,10 +297,11 @@ function Resume() {
       <h2 className="title-animation">Resume</h2>
       <div className="resume-header">
         <a 
-          href="/AdirAliYerimaResume1.docx (1).pdf" 
+          href="/AdirResume.pdf" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="button-slide"
+          download 
         >
           Download Full Resume
         </a>
