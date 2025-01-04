@@ -1,15 +1,18 @@
 {
   "files": {
     "main.css": "/K2320/adirportfolio/static/css/main.78836ec1.css",
-    "main.js": "/K2320/adirportfolio/static/js/main.b504c096.js",
+    "main.js": "/K2320/adirportfolio/static/js/main.027d5cd1.js",
     "static/js/488.a5045e2d.chunk.js": "/K2320/adirportfolio/static/js/488.a5045e2d.chunk.js",
+    "static/media/profilepic.jpg": "/K2320/adirportfolio/static/media/profilepic.b345c92d71cd28c08491.jpg",
+    "static/media/password security.png": "/K2320/adirportfolio/static/media/password security.3557de1b95b4521da475.png",
+    "static/media/Aegisfile Scanner.png": "/K2320/adirportfolio/static/media/Aegisfile Scanner.dac94998e9b5cc44afb7.png",
     "index.html": "/K2320/adirportfolio/index.html",
     "main.78836ec1.css.map": "/K2320/adirportfolio/static/css/main.78836ec1.css.map",
-    "main.b504c096.js.map": "/K2320/adirportfolio/static/js/main.b504c096.js.map",
+    "main.027d5cd1.js.map": "/K2320/adirportfolio/static/js/main.027d5cd1.js.map",
     "488.a5045e2d.chunk.js.map": "/K2320/adirportfolio/static/js/488.a5045e2d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.78836ec1.css",
-    "static/js/main.b504c096.js"
+    "static/js/main.027d5cd1.js"
   ]
 }
